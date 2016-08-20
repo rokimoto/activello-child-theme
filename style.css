@@ -1,0 +1,36 @@
+/*
+Theme Name: Activello Child
+Theme URI: http://momookimoto.com
+Description: Activello Child Theme
+Author: Rachel Okimoto
+Author URI: http://momookimoto.com
+Template: activello
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: activello-child
+*/
+
+
+@import url("../activello/style.css");
+
+/* padding for articles */
+.article.post {
+  padding-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .blog.home article.post {
+    padding-right: 0;
+  }
+}
+
+
+/* instagram */
+.wdi_pagination_container {
+  display: none;
+}
+
+.instagram-header {
+  font-size: 14px;
+}
