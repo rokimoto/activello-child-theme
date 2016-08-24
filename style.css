@@ -34,3 +34,8 @@ Text Domain: activello-child
 .instagram-header {
   font-size: 14px;
 }
+
+.navbar-brand > img {
+  width: 100%;
+  max-width: 500px;
+}
