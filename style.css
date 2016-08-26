@@ -25,6 +25,12 @@ Text Domain: activello-child
   }
 }
 
+.profile-image {
+  width: 60%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 40px;
+}
 
 /* instagram */
 .wdi_pagination_container {

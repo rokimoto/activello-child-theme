@@ -22,8 +22,9 @@
     <div class="inner">
       <?php do_action( 'before_sidebar' ); ?>
       <?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
-
-        <h3 class="instagram-header">Follow me on Instagram</h3>
+        <img class="profile-image" src="<?php echo get_stylesheet_directory_uri(); ?>/images/profile.jpg" />
+        <p>For collaborations, questions, and business inquiries, send an email to hey@momookimoto.com</p>
+        <h3 class="instagram-header"><a href="http://instagram.com/momez">Follow me on Instagram</a></h3>
         <aside id="instagram" class="widget widget_instagram">
           <?php echo wdi_feed(array('id'=>'1')); ?>
         </aside>
